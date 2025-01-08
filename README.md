@@ -1,5 +1,5 @@
 
-# 🏠 Homelab Infrastructure Documentation
+# 🏠 Homelab Documentation
 
 ## Overview
 
