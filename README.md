@@ -20,28 +20,28 @@ This document describes the infrastructure and services running in my personal h
 ### VLANs
 
 - **VLAN 1 - PRODUCTION** (192.168.1.0/24)
-- Core infrastructure services
+	- Core infrastructure services
 - **VLAN 2 - ALLTHETHINGS** (192.168.2.0/24)
-- IoT devices
-- Security cameras
+	- IoT devices
+	- Security cameras
 - **VLAN 3 - PUBLIC** (192.168.37.0/24)
-- Web server (Email Marketing)
+	- Web server (Email Marketing)
 - **VLAN 4 - HOME** (192.168.1.0/24)
-- Primary network for end-user devices
+	- Primary network for end-user devices
 
 ### DNS Management
 
 - **Pi-hole (Primary)** - pi-hole.11
-- DNS and Ad-blocking
-- 100,828 queries
-- 34,272 (34%) blocked queries
-- 931,774 gravity list size
+	- DNS and Ad-blocking
+	- 100,828 queries
+	- 34,272 (34%) blocked queries
+	- 931,774 gravity list size
 
 - **Pi-hole (Secondary)** - pi-hole.12
-- Redundant DNS server
-- 22,886 queries
-- 6,802 (30%) blocked queries
-- 931,081 gravity list size
+	- Redundant DNS server
+	- 22,886 queries
+	- 6,802 (30%) blocked queries
+	- 931,081 gravity list size
 
 ## Core Infrastructure
 
