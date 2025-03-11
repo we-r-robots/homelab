@@ -19,14 +19,14 @@ This document describes the infrastructure and services running in my personal h
 
 ### VLANs
 
-- **VLAN 1 - PRODUCTION** (192.168.1.0/24)
+- **VLAN 1 - PRODUCTION** (10.0.1.0/24)
 	- Core infrastructure services
-- **VLAN 2 - ALLTHETHINGS** (192.168.2.0/24)
+- **VLAN 2 - ALLTHETHINGS** (10.0.2.0/24)
 	- IoT devices
 	- Security cameras
-- **VLAN 3 - PUBLIC** (192.168.37.0/24)
+- **VLAN 3 - PUBLIC** (10.13.37.0/24)
 	- Web server (Email Marketing)
-- **VLAN 4 - HOME** (192.168.1.0/24)
+- **VLAN 4 - HOME** (10.0.3.0/24)
 	- Primary network for end-user devices
 
 ### DNS Management
